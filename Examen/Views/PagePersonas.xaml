@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Examen.Views.PagePersonas">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Image Source="Ucenm.jpeg"></Image>
+            <Entry x:Name="Nombre" Placeholder="Ingrese su nombre"/>
+
+            <Entry x:Name="Telefono" Placeholder="Ingrese su telefono" Keyboard="Telephone"/>
+
+            <Entry x:Name="Edad" Placeholder="Ingrese su Edad"/>
+
+            <Entry x:Name="Pais" Placeholder="Ingrese su Pais"/>
+
+            <Entry x:Name="Nota" Placeholder="Ingrese su Nota"/>
+
+            <Button x:Name="btnproceso" Text="Salvar Informacion" Clicked="btnproceso_Clicked"/>
+
+           
+        </StackLayout>
+        
+    </ContentPage.Content>
+
+
+
+
+</ContentPage>
